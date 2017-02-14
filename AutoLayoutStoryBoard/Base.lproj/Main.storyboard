@@ -24,19 +24,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxl-gT-znX" userLabel="purpleBoxView">
-                                <rect key="frame" x="110.5" y="597" width="228.5" height="50"/>
+                                <rect key="frame" x="111" y="597" width="228" height="50"/>
                                 <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="PKk-Nk-AQT"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4w-nv-947" userLabel="secondBlueBoxView">
+                                <rect key="frame" x="163" y="308" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Sxk-MA-8XV"/>
+                                    <constraint firstAttribute="width" constant="50" id="lBh-8H-Rah"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="I4w-nv-947" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E2c-Lt-efX"/>
                             <constraint firstItem="wxl-gT-znX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="305/500" id="EtK-wj-f42"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wxl-gT-znX" secondAttribute="trailing" constant="20" id="Q4H-3L-oL7"/>
+                            <constraint firstItem="I4w-nv-947" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Yiu-MQ-sFU"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wxl-gT-znX" secondAttribute="bottom" constant="20" id="fIk-MN-kn6"/>
                         </constraints>
                     </view>
